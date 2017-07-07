@@ -1,0 +1,57 @@
+[
+  {
+		'functionName'	: 'lookupMongoDB',
+		'functionClass'	: 'com.streamanalytix.extensions.lookup.MongoCustomUdf',
+		'argsNames'	    : 'Query',
+		'returnType'	: 'java.lang.String',
+		'functionDesc'	: 'To verifying template functionality',		
+		'parameters'	: [
+			{
+				"propertyName": {
+					"type": "label",
+					"value": "host"
+				},
+				"propertyValue": {
+					"type": "text",
+					"value": "",
+					"required": true 
+				}
+			},						
+			{
+				"propertyName": {
+					"type": "label",
+					"value": "port"
+				},
+				"propertyValue": {
+					"type": "text",
+					"value": "",
+					"required": true
+				}
+			},						
+			{
+				"propertyName": {
+					"type": "label",
+					"value": "dbName"
+				},
+				"propertyValue": {
+					"type": "text",
+					"value": "",
+					"required": true
+				}
+			},
+			{
+				"propertyName": {
+					"type": "label",
+					"value": "dbCollectionName"
+				},
+				"propertyValue": {
+					"type": "text",
+					"value": "",
+					"required": true
+				}
+			}			
+		]
+		
+	}
+	
+]
